@@ -43,7 +43,7 @@ namespace POO2
 
         //public class A2 : A
         {
-            public override int nombre
+            public override void nombre
             {
                 Console.WriteLine("A2");
             }
