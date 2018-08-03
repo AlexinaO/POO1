@@ -10,6 +10,11 @@ namespace POO2
     {
         public int PoidsMaxEnKilo { get; set; }
         public int PrixJour { get; set; }
+
+        public override double GetPrixJour()
+        {
+            return PrixJour;
+        }
     }
 }
 

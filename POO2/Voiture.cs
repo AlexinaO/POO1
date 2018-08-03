@@ -11,5 +11,10 @@ namespace POO2
         public int NbPortes { get; set; } = 5; //on  met le valeur 5 dans NbPortes
 
         public CategorieVoiture Categorie { get; set; }
+
+        public override double GetPrixJour()
+        {
+            return Categorie.PrixJour;
+        }
     }
 }
