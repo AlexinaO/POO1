@@ -25,6 +25,8 @@ namespace POO2
             b1.Methode();
             b2.Methode();
             b3.Methode();
+
+            Console.ReadKey();
         }
         public abstract class A
         {
@@ -35,12 +37,16 @@ namespace POO2
         {
             public override void Methode()
             {
-                Console.WriteLine(A1);
+                Console.WriteLine("A1");
             }
         }
 
-        public class A2:A
+        public class A2 : A
         {
+            public override int nombre
+            {
+                Console.WriteLine("A2");
+            }
 
         }
 
