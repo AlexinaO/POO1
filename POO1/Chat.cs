@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace POO1
 {
-    public abstract class Animal
+    public class Chat:Mammifere
     {
-        public void Marcher()
+        public void Miauler()
         {
 
         }
+        
 
     }
 }

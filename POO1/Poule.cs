@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace POO1
 {
-    public abstract class Animal
+    public class Poule:Oiseau // on pourrait mettre sealed pour indiquer qu'il ne peut pas y avoir de sous-classe
     {
-        public void Marcher()
-        {
-
-        }
-
     }
 }

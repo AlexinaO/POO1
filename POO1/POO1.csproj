@@ -43,6 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animal.cs" />
+    <Compile Include="Chat.cs" />
+    <Compile Include="Chien.cs" />
+    <Compile Include="Mammifere.cs" />
+    <Compile Include="Oiseau.cs" />
+    <Compile Include="Poule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

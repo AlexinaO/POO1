@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace POO1
 {
-    public abstract class Animal
+    public class Oiseau :Animal
     {
-        public void Marcher()
-        {
-
-        }
-
+        public bool PeutVoler { get; set};
+        
     }
 }

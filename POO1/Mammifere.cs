@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace POO1
 {
-    public abstract class Animal
+    public abstract class Mammifere :Animal //dans l'exercice pas de abstract mais judicieux de la déclarer en abstraite
     {
-        public void Marcher()
-        {
-
-        }
-
+      
     }
 }
