@@ -11,11 +11,15 @@ namespace POO2
         public DateTime DateDebut { get; set; }
         public DateTime DateFin { get; set; }
         public int KilometrageMaximum { get; set; }
+
         public Client Client { get; set; }
-        public double CalculerMontantLocation(DateTime dateDebut,DateTime dateFin)
+        public Vehicule Vehicule { get; set; }
+
+        public double CalculerMontantLocation()
             {
-            //MontantLocation = (DateFin - DateDebut) * CategorieVoiture.PrixJour;
-            return 0; //MontantLocation;
+            var nbJours = (DateFin - DateDebut).TotalDays;
+
+            return Vehicule.GetPrixJour() * nbJours;
             }
         
     }
