@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using POO1.POO2;
+using POO2;
 
 
 namespace Exos
@@ -12,7 +12,7 @@ namespace Exos
     {
         static void Main(string[] args)
         {
-            var agence = new Agence.Agence();
+            var agence = new Agence();
             agence.Nom = "Budget";
             agence.Ville = "Paris";
 
@@ -21,13 +21,13 @@ namespace Exos
             client.Prenom = "Alexina";
             client.Numero = "00001";
 
-            var categorieVoiture1 = new CategorieVoiture();
-            categorieVoiture1.Nom = "Compacte";
-            categorieVoiture1.PrixJour = 40;
+            var categorieCompacte = new CategorieVoiture();
+            categorieCompacte.Nom = "Compacte";
+            categorieCompacte.PrixJour = 40;
 
-            var categorieVoiture2 = new CategorieVoiture();
+            var categorieFamiliale = new CategorieVoiture();
             categorieFamiliale.Nom = "Familiale";
-            categorieFmailiale.PrixJour = 75;
+            categorieFamiliale.PrixJour = 75;
 
             var voiture1 = new Voiture();
             voiture1.Categorie = categorieCompacte;
@@ -39,7 +39,7 @@ namespace Exos
 
             var contratLocation = new ContratLocation();
             contratLocation.Client = client;
-            contratLocation.Datedebut = DateTime.Today;
+            contratLocation.DateDebut = DateTime.Today;
             contratLocation.DateFin = DateTime.Today.AddDays(5);
             contratLocation.KilometrageMaximum = 500;
             contratLocation.Vehicule = voiture1;
