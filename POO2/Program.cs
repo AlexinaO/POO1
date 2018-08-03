@@ -41,7 +41,7 @@ namespace POO2
             }
         }
 
-        public class A2 : A
+        //public class A2 : A
         {
             public override int nombre
             {
