@@ -8,7 +8,7 @@ namespace POO1
 {
     public class Oiseau :Animal
     {
-        public bool PeutVoler { get; set};
+        public bool PeutVoler { get; set; }
         
     }
 }
